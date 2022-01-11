@@ -1,0 +1,57 @@
+
+.searchInputs {
+    display: flex;
+  }
+
+  input {
+      width: 21.5rem;
+      height: 2rem;
+  }
+
+  .icon {
+    height: 2.3rem;
+    width: 2.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon svg {
+      font-size: 35px;
+  }
+
+  #clear-btn {
+      cursor: pointer;
+  }
+
+  .output-wrapper {
+    width: 24rem;
+    height: 35rem;
+    overflow: hidden;
+    overflow-y: auto;
+    margin-top: 7px;
+  }
+
+  .output-wrapper .links {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+  }
+
+.links {
+    text-decoration: none;
+    color: white;
+    outline: 1px solid black;
+    
+}
+
+.links:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+p {
+    padding: 1rem;
+}
